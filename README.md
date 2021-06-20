@@ -1,6 +1,3 @@
-if game.CoreGui:FindFirstChild("Library") then
-  game.CoreGui:FindFirstChild("Library"):Destroy()
-end
 local VLib = {RainbowColorValue = 0, HueSelectionPosition = 0}
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
